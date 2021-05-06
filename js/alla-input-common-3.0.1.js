@@ -1470,7 +1470,7 @@ function html_shortcut(){
     src_shortcut += '<div class="allaOtherExamWrap">\n';
     src_shortcut += '\t<a href="https://allaclass.com/tag/'+txt_object.value+'%20'+txt_kind.value+'시험" target="_top">\n';
     src_shortcut += '\t\t<div>\n';
-    src_shortcut += '\t\t\t<span class="allaOtherTitle">\''+txt_object.value+'%20'+txt_kind.value+'\'</span> 타년도 모의고사\n';
+    src_shortcut += '\t\t\t<span class="allaOtherTitle">\''+txt_object.value+' '+txt_kind.value+'시험\'</span> 타년도 모의고사\n';
     src_shortcut += '\t\t</div>\n';
     src_shortcut += '\t\t<div>\n';
     src_shortcut += '\t\t\t방송대 '+txt_object.value+' 기말시험 2019년도 / 올에이클래스 모의고사<br>\n';
