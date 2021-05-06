@@ -1468,6 +1468,7 @@ function html_shortcut(){
     src_shortcut = '';
     src_shortcut += '<!-- 타년도 문제 바로가기 영역 -->\n';
     src_shortcut += '<div class="allaOtherExamWrap">\n';
+    /*
     src_shortcut += '\t<a href="https://allaclass.com/tag/'+txt_object.value+'%20'+txt_kind.value+'시험" target="_top">\n';
     src_shortcut += '\t\t<div>\n';
     src_shortcut += '\t\t\t<span class="allaOtherTitle">\''+txt_object.value+' '+txt_kind.value+'시험\'</span> 타년도 모의고사\n';
@@ -1482,6 +1483,7 @@ function html_shortcut(){
     src_shortcut += '\t\t\t방송대 '+txt_object.value+' 기말시험 2013년도 / 올에이클래스 모의고사<br>\n';
     src_shortcut += '\t\t</div>\n';
     src_shortcut += '\t</a>\n';
+    */
     src_shortcut += '</div>\n';
     src_shortcut += '<!-- // 타년도 문제 바로가기 영역 -->\n';
     src_shortcut += '<!-- ------------------------------------------------------------------------------------ -->\n\n';
