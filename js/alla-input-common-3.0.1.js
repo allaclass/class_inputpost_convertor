@@ -1414,7 +1414,7 @@ function html_answer_table_header(){
     src_answer_table_header += '<div class="allaAnswerGuideWrap">\n';
     src_answer_table_header += '\t<table>\n';
     src_answer_table_header += '\t\t<tbody>\n';
-    src_answer_table_header += '\t\t\t<colgroup><col style="width:16.6%"><col style="width:16.6%"><col style="width:16.6%"><col style="width:16.6%"><col style="width:16.6%"><col style="width:16.6%"></colgroup>\n';
+    src_answer_table_header += '\t\t\t<colgroup><col style="width:11.3%"><col style="width:22%"><col style="width:11.3%"><col style="width:22%"><col style="width:11.4%"><col style="width:22%"></colgroup>\n';
     src_answer_table_header += '\t\t\t<tr><th colspan="6">중복답안 가이드</th></tr>\n';
     src_answer_table_header += '\t\t\t<tr><td>A</td><td>1, 2</td><td>E</td><td>2, 4</td><td>I</td><td>1, 3, 4</td></tr>\n';
     src_answer_table_header += '\t\t\t<tr><td>B</td><td>1, 3</td><td>F</td><td>3, 4</td><td>J</td><td>2, 3, 4</td></tr>\n';
@@ -1426,7 +1426,7 @@ function html_answer_table_header(){
     src_answer_table_header += '<div class="allaAnswerTableWrap">\n';
     src_answer_table_header += '\t<table>\n';
     src_answer_table_header += '\t\t<tbody>\n';
-    src_answer_table_header += '\t\t\t<colgroup><col style="width:22%"><col style="width:22%"><col style="width:22%"><col style="width:14%"><col style="width:20%"></colgroup>\n';
+    src_answer_table_header += '\t\t\t<colgroup><col style="width:11.3%"><col style="width:27.65%"><col style="width:27.65%"><col style="width:16.7%"><col style="width:16.7%"></colgroup>\n';
     src_answer_table_header += '\t\t\t<tr><th>No</th><th>정답</th><th>선택</th><th>채점</th><th>바로가기</th></tr>\n';
     fnl.value += src_answer_table_header;
 }
