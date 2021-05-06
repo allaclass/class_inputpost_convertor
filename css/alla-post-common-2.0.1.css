@@ -345,18 +345,39 @@
     }
 
 /* 타년도 기출문제 바로가기 */
-    div.allaOutExamWrap{
+    div.allaOtherExamWrap{
         width: 100%;
         max-width: 740px;
-        background-color: #eee;
+        padding: 16px;
         border: 1px solid #ccc;
-        text-align: center;
-        line-height: 120px;
+        text-align: left;
         margin-bottom: 160px;
-    }
-    div.allaOutExamWrap a{
-        font-size: 36px;
         color: #343a40;
+        box-sizing: border-box;
+    }
+
+    div.allaOtherExamWrap div:first-of-type {
+        font-size: 14px;
+        font-weight: 600;
+        padding: 0 0 10px 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    div.allaOtherExamWrap div:first-of-type span.allaOtherTitle {
+        font-size: 16px;
+        font-weight: border;
+    }
+    
+    div.allaOtherExamWrap div:last-of-type {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 500;
+        color: #777;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
 

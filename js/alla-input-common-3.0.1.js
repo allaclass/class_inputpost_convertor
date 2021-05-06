@@ -1467,8 +1467,21 @@ function html_answer_table_footer(){
 function html_shortcut(){
     src_shortcut = '';
     src_shortcut += '<!-- 타년도 문제 바로가기 영역 -->\n';
-    src_shortcut += '<div class="allaOutExamWrap">\n';
-    src_shortcut += '\t<a href="https://allaclass.com/tag/'+txt_object.value+'%20'+txt_kind.value+'시험" target="_top">타년도 '+txt_object.value+' '+txt_kind.value+'시험 바로가기</a>\n';
+    src_shortcut += '<div class="allaOtherExamWrap">\n';
+    src_shortcut += '\t<a href="https://allaclass.com/tag/'+txt_object.value+'%20'+txt_kind.value+'시험" target="_top">\n';
+    src_shortcut += '\t\t<div>\n';
+    src_shortcut += '\t\t\t<span class="allaOtherTitle">\''+txt_object.value+'%20'+txt_kind.value+'\'</span> 타년도 모의고사\n';
+    src_shortcut += '\t\t</div>\n';
+    src_shortcut += '\t\t<div>\n';
+    src_shortcut += '\t\t\t방송대 '+txt_object.value+' 기말시험 2019년도 / 올에이클래스 모의고사<br>\n';
+    src_shortcut += '\t\t\t방송대 '+txt_object.value+' 기말시험 2018년도 / 올에이클래스 모의고사<br>\n';
+    src_shortcut += '\t\t\t방송대 '+txt_object.value+' 기말시험 2017년도 / 올에이클래스 모의고사<br>\n';
+    src_shortcut += '\t\t\t방송대 '+txt_object.value+' 기말시험 2016년도 / 올에이클래스 모의고사<br>\n';
+    src_shortcut += '\t\t\t방송대 '+txt_object.value+' 기말시험 2015년도 / 올에이클래스 모의고사<br>\n';
+    src_shortcut += '\t\t\t방송대 '+txt_object.value+' 기말시험 2014년도 / 올에이클래스 모의고사<br>\n';
+    src_shortcut += '\t\t\t방송대 '+txt_object.value+' 기말시험 2013년도 / 올에이클래스 모의고사<br>\n';
+    src_shortcut += '\t\t</div>\n';
+    src_shortcut += '\t</a>\n';
     src_shortcut += '</div>\n';
     src_shortcut += '<!-- // 타년도 문제 바로가기 영역 -->\n';
     src_shortcut += '<!-- ------------------------------------------------------------------------------------ -->\n\n';
