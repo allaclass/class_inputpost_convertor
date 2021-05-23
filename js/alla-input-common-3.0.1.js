@@ -1100,7 +1100,8 @@ function html_example_img(example_1){
     src_example_img += '\t\t\t<!-- 보기그림 -->\n';
     src_example_img += '\t\t\t<tr class="allaExampleLine_Img">\n';
     src_example_img += '\t\t\t\t<td colspan="2">\n';
-    src_example_img += '\t\t\t\t\t<img src="'+example_1+'" alt="보기그림">\n';
+    // src_example_img += '\t\t\t\t\t<img src="'+example_1+'" alt="보기그림">\n';
+    src_example_img += '\t\t\t\t\t'+example_1+'\n';
     src_example_img += '\t\t\t\t</td>\n';
     src_example_img += '\t\t\t</tr>\n';
     src_example_img += '\t\t\t<tr class="allaBlankLine">\n';
@@ -1133,7 +1134,8 @@ function html_example_img_add(example_2){
     src_example_img += '\t\t\t<!-- 추가보기그림 -->\n';
     src_example_img += '\t\t\t<tr class="allaExampleLine_Img">\n';
     src_example_img += '\t\t\t\t<td colspan="2">\n';
-    src_example_img += '\t\t\t\t\t<img src="'+example_2+'" alt="추가보기그림">\n';
+    // src_example_img += '\t\t\t\t\t<img src="'+example_2+'" alt="추가보기그림">\n';
+    src_example_img += '\t\t\t\t\t'+example_2+'\n';
     src_example_img += '\t\t\t\t</td>\n';
     src_example_img += '\t\t\t</tr>\n';
     src_example_img += '\t\t\t<tr class="allaBlankLine">\n';
