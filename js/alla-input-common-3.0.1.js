@@ -1222,7 +1222,7 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
         src_question_answer += '\t\t\t\t<td class="allaAnswerRadioImg">\n';
         src_question_answer += '\t\t\t\t\t<label for="radio-0'+number+'-1">\n';
         src_question_answer += '\t\t\t\t\t\t<input type="radio" id="radio-0'+number+'-1" name="question-0'+number+'" value="1">\n';
-        src_question_answer += '\t\t\t\t\t\t<img>\n';
+        src_question_answer += '\t\t\t\t\t\t<img src="https://tistory1.daumcdn.net/tistory/4700529/skin/images/radio-check-off.png">\n';
         src_question_answer += '\t\t\t\t\t</label>\n';
         src_question_answer += '\t\t\t\t</td>\n';
         src_question_answer += '\t\t\t\t<td class="allaAnswerContents">\n';
@@ -1236,7 +1236,7 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
         src_question_answer += '\t\t\t\t<td class="allaAnswerRadioImg">\n';
         src_question_answer += '\t\t\t\t\t<label for="radio-0'+number+'-2">\n';
         src_question_answer += '\t\t\t\t\t\t<input type="radio" id="radio-0'+number+'-2" name="question-0'+number+'" value="2">\n';
-        src_question_answer += '\t\t\t\t\t\t<img>\n';
+        src_question_answer += '\t\t\t\t\t\t<img src="https://tistory1.daumcdn.net/tistory/4700529/skin/images/radio-check-off.png">\n';
         src_question_answer += '\t\t\t\t\t</label>\n';
         src_question_answer += '\t\t\t\t</td>\n';
         src_question_answer += '\t\t\t\t<td class="allaAnswerContents">\n';
@@ -1250,7 +1250,7 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
         src_question_answer += '\t\t\t\t<td class="allaAnswerRadioImg">\n';
         src_question_answer += '\t\t\t\t\t<label for="radio-0'+number+'-3">\n';
         src_question_answer += '\t\t\t\t\t\t<input type="radio" id="radio-0'+number+'-3" name="question-0'+number+'" value="3">\n';
-        src_question_answer += '\t\t\t\t\t\t<img>\n';
+        src_question_answer += '\t\t\t\t\t\t<img src="https://tistory1.daumcdn.net/tistory/4700529/skin/images/radio-check-off.png">\n';
         src_question_answer += '\t\t\t\t\t</label>\n';
         src_question_answer += '\t\t\t\t</td>\n';
         src_question_answer += '\t\t\t\t<td class="allaAnswerContents">\n';
@@ -1264,7 +1264,7 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
         src_question_answer += '\t\t\t\t<td class="allaAnswerRadioImg">\n';
         src_question_answer += '\t\t\t\t\t<label for="radio-0'+number+'-4">\n';
         src_question_answer += '\t\t\t\t\t\t<input type="radio" id="radio-0'+number+'-4" name="question-0'+number+'" value="4">\n';
-        src_question_answer += '\t\t\t\t\t\t<img>\n';
+        src_question_answer += '\t\t\t\t\t\t<img src="https://tistory1.daumcdn.net/tistory/4700529/skin/images/radio-check-off.png">\n';
         src_question_answer += '\t\t\t\t\t</label>\n';
         src_question_answer += '\t\t\t\t</td>\n';
         src_question_answer += '\t\t\t\t<td class="allaAnswerContents">\n';
@@ -1278,7 +1278,7 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
         src_question_answer += '\t\t\t\t<td class="allaAnswerRadioImg">\n';
         src_question_answer += '\t\t\t\t\t<label for="radio-0'+number+'-5">\n';
         src_question_answer += '\t\t\t\t\t\t<input type="radio" id="radio-0'+number+'-5" name="question-0'+number+'" value="5">\n';
-        src_question_answer += '\t\t\t\t\t\t<img>\n';
+        src_question_answer += '\t\t\t\t\t\t<img src="https://tistory1.daumcdn.net/tistory/4700529/skin/images/radio-check-off.png">\n';
         src_question_answer += '\t\t\t\t\t</label>\n';
         src_question_answer += '\t\t\t\t</td>\n';
         src_question_answer += '\t\t\t\t<td class="allaAnswerContents">\n';
@@ -1306,7 +1306,7 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
         src_question_answer += '\t\t\t\t<td class="allaAnswerRadioImg">\n';
         src_question_answer += '\t\t\t\t\t<label for="radio-'+number+'-1">\n';
         src_question_answer += '\t\t\t\t\t\t<input type="radio" id="radio-'+number+'-1" name="question-'+number+'" value="1">\n';
-        src_question_answer += '\t\t\t\t\t\t<img>\n';
+        src_question_answer += '\t\t\t\t\t\t<img src="https://tistory1.daumcdn.net/tistory/4700529/skin/images/radio-check-off.png">\n';
         src_question_answer += '\t\t\t\t\t</label>\n';
         src_question_answer += '\t\t\t\t</td>\n';
         src_question_answer += '\t\t\t\t<td class="allaAnswerContents">\n';
@@ -1320,7 +1320,7 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
         src_question_answer += '\t\t\t\t<td class="allaAnswerRadioImg">\n';
         src_question_answer += '\t\t\t\t\t<label for="radio-'+number+'-2">\n';
         src_question_answer += '\t\t\t\t\t\t<input type="radio" id="radio-'+number+'-2" name="question-'+number+'" value="2">\n';
-        src_question_answer += '\t\t\t\t\t\t<img>\n';
+        src_question_answer += '\t\t\t\t\t\t<img src="https://tistory1.daumcdn.net/tistory/4700529/skin/images/radio-check-off.png">\n';
         src_question_answer += '\t\t\t\t\t</label>\n';
         src_question_answer += '\t\t\t\t</td>\n';
         src_question_answer += '\t\t\t\t<td class="allaAnswerContents">\n';
@@ -1334,7 +1334,7 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
         src_question_answer += '\t\t\t\t<td class="allaAnswerRadioImg">\n';
         src_question_answer += '\t\t\t\t\t<label for="radio-'+number+'-3">\n';
         src_question_answer += '\t\t\t\t\t\t<input type="radio" id="radio-'+number+'-3" name="question-'+number+'" value="3">\n';
-        src_question_answer += '\t\t\t\t\t\t<img>\n';
+        src_question_answer += '\t\t\t\t\t\t<img src="https://tistory1.daumcdn.net/tistory/4700529/skin/images/radio-check-off.png">\n';
         src_question_answer += '\t\t\t\t\t</label>\n';
         src_question_answer += '\t\t\t\t</td>\n';
         src_question_answer += '\t\t\t\t<td class="allaAnswerContents">\n';
@@ -1348,7 +1348,7 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
         src_question_answer += '\t\t\t\t<td class="allaAnswerRadioImg">\n';
         src_question_answer += '\t\t\t\t\t<label for="radio-'+number+'-4">\n';
         src_question_answer += '\t\t\t\t\t\t<input type="radio" id="radio-'+number+'-4" name="question-'+number+'" value="4">\n';
-        src_question_answer += '\t\t\t\t\t\t<img>\n';
+        src_question_answer += '\t\t\t\t\t\t<img src="https://tistory1.daumcdn.net/tistory/4700529/skin/images/radio-check-off.png">\n';
         src_question_answer += '\t\t\t\t\t</label>\n';
         src_question_answer += '\t\t\t\t</td>\n';
         src_question_answer += '\t\t\t\t<td class="allaAnswerContents">\n';
@@ -1362,7 +1362,7 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
         src_question_answer += '\t\t\t\t<td class="allaAnswerRadioImg">\n';
         src_question_answer += '\t\t\t\t\t<label for="radio-'+number+'-5">\n';
         src_question_answer += '\t\t\t\t\t\t<input type="radio" id="radio-'+number+'-5" name="question-'+number+'" value="5">\n';
-        src_question_answer += '\t\t\t\t\t\t<img>\n';
+        src_question_answer += '\t\t\t\t\t\t<img src="https://tistory1.daumcdn.net/tistory/4700529/skin/images/radio-check-off.png">\n';
         src_question_answer += '\t\t\t\t\t</label>\n';
         src_question_answer += '\t\t\t\t</td>\n';
         src_question_answer += '\t\t\t\t<td class="allaAnswerContents">\n';

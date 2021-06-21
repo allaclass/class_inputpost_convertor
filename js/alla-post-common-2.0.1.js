@@ -10,7 +10,7 @@ $(document).ready(function(){
     $("div.postView div.allaGuideWrap img").attr('src', 'https://tistory4.daumcdn.net/tistory/4700529/skin/images/Blog_Guide_Web.gif');
     
     // 문제지 라디오 이미지 표시
-    $("table.allaBasicWrap tr td.allaAnswerRadioImg img").attr('src', 'https://tistory1.daumcdn.net/tistory/4700529/skin/images/radio-check-off.png');
+    $("table.allabasicWrap tr.allaAnswerLine td.allaAnswerRadioImg label img").attr('src', 'https://tistory1.daumcdn.net/tistory/4700529/skin/images/radio-check-off.png');
 
     // 정답표 "-" 기호 표시
     $("div.allaAnswerTableWrap table tr td:nth-of-type(4) img").attr('src', 'https://tistory1.daumcdn.net/tistory/4700529/skin/images/answer-none.png');
