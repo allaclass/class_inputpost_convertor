@@ -917,6 +917,18 @@ function html_group_question_quiz(question){
     question = question.replaceAll('/.아랫첨자', '<sub>');
     question = question.replaceAll('/이미지', '<img src="');
     question = question.replaceAll('/.이미지', '">');
+    question = question.replaceAll('～', '~');
+    question = question.replaceAll('․', 'ㆍ');
+    question = question.replaceAll('·', 'ㆍ');
+    question = question.replaceAll('⋅', 'ㆍ');
+    question = question.replaceAll('󰡔', '『');
+    question = question.replaceAll('ꡔ', '『');
+    question = question.replaceAll('󰡕', '』');
+    question = question.replaceAll('ꡕ', '』');
+    question = question.replaceAll('｢', '「');
+    question = question.replaceAll('｣', '」');
+    question = question.replaceAll('‘', '\'');
+    question = question.replaceAll('’', '\'');
     // replace (main)
     src_group_question_quiz = '';
     src_group_question_quiz += '<!-- 그룹 문제 -->\n';
@@ -963,6 +975,18 @@ function html_question_quiz(number, question){
         question = question.replaceAll('/.아랫첨자', '<sub>');
         question = question.replaceAll('/이미지', '<img src="');
         question = question.replaceAll('/.이미지', '">');
+        question = question.replaceAll('～', '~');
+        question = question.replaceAll('․', 'ㆍ');
+        question = question.replaceAll('·', 'ㆍ');
+        question = question.replaceAll('⋅', 'ㆍ');
+        question = question.replaceAll('󰡔', '『');
+        question = question.replaceAll('ꡔ', '『');
+        question = question.replaceAll('󰡕', '』');
+        question = question.replaceAll('ꡕ', '』');
+        question = question.replaceAll('｢', '「');
+        question = question.replaceAll('｣', '」');
+        question = question.replaceAll('‘', '\'');
+        question = question.replaceAll('’', '\'');
         // replace (main)
         src_question_quiz = '';
         src_question_quiz += '<!-- 문제 : 0'+number+' -->\n';
@@ -994,6 +1018,18 @@ function html_question_quiz(number, question){
         question = question.replaceAll('/.아랫첨자', '<sub>');
         question = question.replaceAll('/이미지', '<img src="');
         question = question.replaceAll('/.이미지', '">');
+        question = question.replaceAll('～', '~');
+        question = question.replaceAll('․', 'ㆍ');
+        question = question.replaceAll('·', 'ㆍ');
+        question = question.replaceAll('⋅', 'ㆍ');
+        question = question.replaceAll('󰡔', '『');
+        question = question.replaceAll('ꡔ', '『');
+        question = question.replaceAll('󰡕', '』');
+        question = question.replaceAll('ꡕ', '』');
+        question = question.replaceAll('｢', '「');
+        question = question.replaceAll('｣', '」');
+        question = question.replaceAll('‘', '\'');
+        question = question.replaceAll('’', '\'');
         // replace (main)
         src_question_quiz = '';
         src_question_quiz += '<!-- 문제 : '+number+' -->\n';
@@ -1029,6 +1065,18 @@ function html_example_txt(example_1){
     example_1 = example_1.replaceAll('/.아랫첨자', '<sub>');
     example_1 = example_1.replaceAll('/이미지', '<img src="');
     example_1 = example_1.replaceAll('/.이미지', '">');
+    example_1 = example_1.replaceAll('～', '~');
+    example_1 = example_1.replaceAll('․', 'ㆍ');
+    example_1 = example_1.replaceAll('·', 'ㆍ');
+    example_1 = example_1.replaceAll('⋅', 'ㆍ');
+    example_1 = example_1.replaceAll('󰡔', '『');
+    example_1 = example_1.replaceAll('ꡔ', '『');
+    example_1 = example_1.replaceAll('󰡕', '』');
+    example_1 = example_1.replaceAll('ꡕ', '』');
+    example_1 = example_1.replaceAll('｢', '「');
+    example_1 = example_1.replaceAll('｣', '」');
+    example_1 = example_1.replaceAll('‘', '\'');
+    example_1 = example_1.replaceAll('’', '\'');
     // replace (main)
     src_example_txt = '';
     src_example_txt += '\t\t\t<!-- 보기문 -->\n';
@@ -1062,6 +1110,18 @@ function html_example_txt_add(example_2){
     example_2 = example_2.replaceAll('/.아랫첨자', '<sub>');
     example_2 = example_2.replaceAll('/이미지', '<img src="');
     example_2 = example_2.replaceAll('/.이미지', '">');
+    example_2 = example_2.replaceAll('～', '~');
+    example_2 = example_2.replaceAll('․', 'ㆍ');
+    example_2 = example_2.replaceAll('·', 'ㆍ');
+    example_2 = example_2.replaceAll('⋅', 'ㆍ');
+    example_2 = example_2.replaceAll('󰡔', '『');
+    example_2 = example_2.replaceAll('ꡔ', '『');
+    example_2 = example_2.replaceAll('󰡕', '』');
+    example_2 = example_2.replaceAll('ꡕ', '』');
+    example_2 = example_2.replaceAll('｢', '「');
+    example_2 = example_2.replaceAll('｣', '」');
+    example_2 = example_2.replaceAll('‘', '\'');
+    example_2 = example_2.replaceAll('’', '\'');
     // replace (main)
     src_example_txt_add = '';
     src_example_txt_add += '\t\t\t<!-- 추가보기문 -->\n';
@@ -1095,6 +1155,18 @@ function html_example_img(example_1){
     example_1 = example_1.replaceAll('/.아랫첨자', '<sub>');
     example_1 = example_1.replaceAll('/이미지', '<img src="');
     example_1 = example_1.replaceAll('/.이미지', '">');
+    example_1 = example_1.replaceAll('～', '~');
+    example_1 = example_1.replaceAll('․', 'ㆍ');
+    example_1 = example_1.replaceAll('·', 'ㆍ');
+    example_1 = example_1.replaceAll('⋅', 'ㆍ');
+    example_1 = example_1.replaceAll('󰡔', '『');
+    example_1 = example_1.replaceAll('ꡔ', '『');
+    example_1 = example_1.replaceAll('󰡕', '』');
+    example_1 = example_1.replaceAll('ꡕ', '』');
+    example_1 = example_1.replaceAll('｢', '「');
+    example_1 = example_1.replaceAll('｣', '」');
+    example_1 = example_1.replaceAll('‘', '\'');
+    example_1 = example_1.replaceAll('’', '\'');
     // replace (main)
     src_example_img = '';
     src_example_img += '\t\t\t<!-- 보기그림 -->\n';
@@ -1129,6 +1201,18 @@ function html_example_img_add(example_2){
     example_2 = example_2.replaceAll('/.아랫첨자', '<sub>');
     example_2 = example_2.replaceAll('/이미지', '<img src="');
     example_2 = example_2.replaceAll('/.이미지', '">');
+    example_2 = example_2.replaceAll('～', '~');
+    example_2 = example_2.replaceAll('․', 'ㆍ');
+    example_2 = example_2.replaceAll('·', 'ㆍ');
+    example_2 = example_2.replaceAll('⋅', 'ㆍ');
+    example_2 = example_2.replaceAll('󰡔', '『');
+    example_2 = example_2.replaceAll('ꡔ', '『');
+    example_2 = example_2.replaceAll('󰡕', '』');
+    example_2 = example_2.replaceAll('ꡕ', '』');
+    example_2 = example_2.replaceAll('｢', '「');
+    example_2 = example_2.replaceAll('｣', '」');
+    example_2 = example_2.replaceAll('‘', '\'');
+    example_2 = example_2.replaceAll('’', '\'');
     // replace (main)
     src_example_img = '';
     src_example_img += '\t\t\t<!-- 추가보기그림 -->\n';
@@ -1163,6 +1247,18 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
     answer_1 = answer_1.replaceAll('/.아랫첨자', '<sub>');
     answer_1 = answer_1.replaceAll('/이미지', '<img src="');
     answer_1 = answer_1.replaceAll('/.이미지', '">');
+    answer_1 = answer_1.replaceAll('～', '~');
+    answer_1 = answer_1.replaceAll('․', 'ㆍ');
+    answer_1 = answer_1.replaceAll('·', 'ㆍ');
+    answer_1 = answer_1.replaceAll('⋅', 'ㆍ');
+    answer_1 = answer_1.replaceAll('󰡔', '『');
+    answer_1 = answer_1.replaceAll('ꡔ', '『');
+    answer_1 = answer_1.replaceAll('󰡕', '』');
+    answer_1 = answer_1.replaceAll('ꡕ', '』');
+    answer_1 = answer_1.replaceAll('｢', '「');
+    answer_1 = answer_1.replaceAll('｣', '」');
+    answer_1 = answer_1.replaceAll('‘', '\'');
+    answer_1 = answer_1.replaceAll('’', '\'');
     // replace (Answer_2 Text Effect)
     answer_2 = answer_2.replaceAll('/부정', '<span class="iub">');
     answer_2 = answer_2.replaceAll('/.부정', '</span>');
@@ -1180,6 +1276,18 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
     answer_2 = answer_2.replaceAll('/.아랫첨자', '<sub>');
     answer_2 = answer_2.replaceAll('/이미지', '<img src="');
     answer_2 = answer_2.replaceAll('/.이미지', '">');
+    answer_2 = answer_2.replaceAll('～', '~');
+    answer_2 = answer_2.replaceAll('․', 'ㆍ');
+    answer_2 = answer_2.replaceAll('·', 'ㆍ');
+    answer_2 = answer_2.replaceAll('⋅', 'ㆍ');
+    answer_2 = answer_2.replaceAll('󰡔', '『');
+    answer_2 = answer_2.replaceAll('ꡔ', '『');
+    answer_2 = answer_2.replaceAll('󰡕', '』');
+    answer_2 = answer_2.replaceAll('ꡕ', '』');
+    answer_2 = answer_2.replaceAll('｢', '「');
+    answer_2 = answer_2.replaceAll('｣', '」');
+    answer_2 = answer_2.replaceAll('‘', '\'');
+    answer_2 = answer_2.replaceAll('’', '\'');
     // replace (Answer_3 Text Effect)
     answer_3 = answer_3.replaceAll('/부정', '<span class="iub">');
     answer_3 = answer_3.replaceAll('/.부정', '</span>');
@@ -1197,6 +1305,18 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
     answer_3 = answer_3.replaceAll('/.아랫첨자', '<sub>');
     answer_3 = answer_3.replaceAll('/이미지', '<img src="');
     answer_3 = answer_3.replaceAll('/.이미지', '">');
+    answer_3 = answer_3.replaceAll('～', '~');
+    answer_3 = answer_3.replaceAll('․', 'ㆍ');
+    answer_3 = answer_3.replaceAll('·', 'ㆍ');
+    answer_3 = answer_3.replaceAll('⋅', 'ㆍ');
+    answer_3 = answer_3.replaceAll('󰡔', '『');
+    answer_3 = answer_3.replaceAll('ꡔ', '『');
+    answer_3 = answer_3.replaceAll('󰡕', '』');
+    answer_3 = answer_3.replaceAll('ꡕ', '』');
+    answer_3 = answer_3.replaceAll('｢', '「');
+    answer_3 = answer_3.replaceAll('｣', '」');
+    answer_3 = answer_3.replaceAll('‘', '\'');
+    answer_3 = answer_3.replaceAll('’', '\'');
     // replace (Answer_4 Text Effect)
     answer_4 = answer_4.replaceAll('/부정', '<span class="iub">');
     answer_4 = answer_4.replaceAll('/.부정', '</span>');
@@ -1214,6 +1334,18 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
     answer_4 = answer_4.replaceAll('/.아랫첨자', '<sub>');
     answer_4 = answer_4.replaceAll('/이미지', '<img src="');
     answer_4 = answer_4.replaceAll('/.이미지', '">');
+    answer_4 = answer_4.replaceAll('～', '~');
+    answer_4 = answer_4.replaceAll('․', 'ㆍ');
+    answer_4 = answer_4.replaceAll('·', 'ㆍ');
+    answer_4 = answer_4.replaceAll('⋅', 'ㆍ');
+    answer_4 = answer_4.replaceAll('󰡔', '『');
+    answer_4 = answer_4.replaceAll('ꡔ', '『');
+    answer_4 = answer_4.replaceAll('󰡕', '』');
+    answer_4 = answer_4.replaceAll('ꡕ', '』');
+    answer_4 = answer_4.replaceAll('｢', '「');
+    answer_4 = answer_4.replaceAll('｣', '」');
+    answer_4 = answer_4.replaceAll('‘', '\'');
+    answer_4 = answer_4.replaceAll('’', '\'');
     // replace (main)
     if(parseInt(number)<10){
         src_question_answer = '';
