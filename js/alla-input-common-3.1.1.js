@@ -1255,7 +1255,7 @@ function html_group_question_quiz(question){
     question = question.replaceAll('/윗첨자', '<sup>');
     question = question.replaceAll('/.윗첨자', '</sup>');
     question = question.replaceAll('/아랫첨자', '<sub>');
-    question = question.replaceAll('/.아랫첨자', '<sub>');
+    question = question.replaceAll('/.아랫첨자', '</sub>');
     question = question.replaceAll('/이미지', '<img src="');
     question = question.replaceAll('/.이미지', '">');
     // replace (main)
@@ -1301,7 +1301,7 @@ function html_question_quiz(number, question){
         question = question.replaceAll('/윗첨자', '<sup>');
         question = question.replaceAll('/.윗첨자', '</sup>');
         question = question.replaceAll('/아랫첨자', '<sub>');
-        question = question.replaceAll('/.아랫첨자', '<sub>');
+        question = question.replaceAll('/.아랫첨자', '</sub>');
         question = question.replaceAll('/이미지', '<img src="');
         question = question.replaceAll('/.이미지', '">');
         // replace (main)
@@ -1332,7 +1332,7 @@ function html_question_quiz(number, question){
         question = question.replaceAll('/윗첨자', '<sup>');
         question = question.replaceAll('/.윗첨자', '</sup>');
         question = question.replaceAll('/아랫첨자', '<sub>');
-        question = question.replaceAll('/.아랫첨자', '<sub>');
+        question = question.replaceAll('/.아랫첨자', '</sub>');
         question = question.replaceAll('/이미지', '<img src="');
         question = question.replaceAll('/.이미지', '">');
         // replace (main)
@@ -1367,7 +1367,7 @@ function html_example_txt(example_1){
     example_1 = example_1.replaceAll('/윗첨자', '<sup>');
     example_1 = example_1.replaceAll('/.윗첨자', '</sup>');
     example_1 = example_1.replaceAll('/아랫첨자', '<sub>');
-    example_1 = example_1.replaceAll('/.아랫첨자', '<sub>');
+    example_1 = example_1.replaceAll('/.아랫첨자', '</sub>');
     example_1 = example_1.replaceAll('/이미지', '<img src="');
     example_1 = example_1.replaceAll('/.이미지', '">');
     // replace (main)
@@ -1400,7 +1400,7 @@ function html_example_txt_add(example_2){
     example_2 = example_2.replaceAll('/윗첨자', '<sup>');
     example_2 = example_2.replaceAll('/.윗첨자', '</sup>');
     example_2 = example_2.replaceAll('/아랫첨자', '<sub>');
-    example_2 = example_2.replaceAll('/.아랫첨자', '<sub>');
+    example_2 = example_2.replaceAll('/.아랫첨자', '</sub>');
     example_2 = example_2.replaceAll('/이미지', '<img src="');
     example_2 = example_2.replaceAll('/.이미지', '">');
     // replace (main)
@@ -1433,7 +1433,7 @@ function html_example_img(example_1){
     example_1 = example_1.replaceAll('/윗첨자', '<sup>');
     example_1 = example_1.replaceAll('/.윗첨자', '</sup>');
     example_1 = example_1.replaceAll('/아랫첨자', '<sub>');
-    example_1 = example_1.replaceAll('/.아랫첨자', '<sub>');
+    example_1 = example_1.replaceAll('/.아랫첨자', '</sub>');
     example_1 = example_1.replaceAll('/이미지', '<img src="');
     example_1 = example_1.replaceAll('/.이미지', '">');
     // replace (main)
@@ -1467,7 +1467,7 @@ function html_example_img_add(example_2){
     example_2 = example_2.replaceAll('/윗첨자', '<sup>');
     example_2 = example_2.replaceAll('/.윗첨자', '</sup>');
     example_2 = example_2.replaceAll('/아랫첨자', '<sub>');
-    example_2 = example_2.replaceAll('/.아랫첨자', '<sub>');
+    example_2 = example_2.replaceAll('/.아랫첨자', '</sub>');
     example_2 = example_2.replaceAll('/이미지', '<img src="');
     example_2 = example_2.replaceAll('/.이미지', '">');
     // replace (main)
@@ -1501,7 +1501,7 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
     answer_1 = answer_1.replaceAll('/윗첨자', '<sup>');
     answer_1 = answer_1.replaceAll('/.윗첨자', '</sup>');
     answer_1 = answer_1.replaceAll('/아랫첨자', '<sub>');
-    answer_1 = answer_1.replaceAll('/.아랫첨자', '<sub>');
+    answer_1 = answer_1.replaceAll('/.아랫첨자', '</sub>');
     answer_1 = answer_1.replaceAll('/이미지', '<img src="');
     answer_1 = answer_1.replaceAll('/.이미지', '">');
     // replace (Answer_2 Text Effect)
@@ -1518,7 +1518,7 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
     answer_2 = answer_2.replaceAll('/윗첨자', '<sup>');
     answer_2 = answer_2.replaceAll('/.윗첨자', '</sup>');
     answer_2 = answer_2.replaceAll('/아랫첨자', '<sub>');
-    answer_2 = answer_2.replaceAll('/.아랫첨자', '<sub>');
+    answer_2 = answer_2.replaceAll('/.아랫첨자', '</sub>');
     answer_2 = answer_2.replaceAll('/이미지', '<img src="');
     answer_2 = answer_2.replaceAll('/.이미지', '">');
     // replace (Answer_3 Text Effect)
@@ -1535,7 +1535,7 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
     answer_3 = answer_3.replaceAll('/윗첨자', '<sup>');
     answer_3 = answer_3.replaceAll('/.윗첨자', '</sup>');
     answer_3 = answer_3.replaceAll('/아랫첨자', '<sub>');
-    answer_3 = answer_3.replaceAll('/.아랫첨자', '<sub>');
+    answer_3 = answer_3.replaceAll('/.아랫첨자', '</sub>');
     answer_3 = answer_3.replaceAll('/이미지', '<img src="');
     answer_3 = answer_3.replaceAll('/.이미지', '">');
     // replace (Answer_4 Text Effect)
@@ -1552,7 +1552,7 @@ function html_question_answer(number, answer_1, answer_2, answer_3, answer_4){
     answer_4 = answer_4.replaceAll('/윗첨자', '<sup>');
     answer_4 = answer_4.replaceAll('/.윗첨자', '</sup>');
     answer_4 = answer_4.replaceAll('/아랫첨자', '<sub>');
-    answer_4 = answer_4.replaceAll('/.아랫첨자', '<sub>');
+    answer_4 = answer_4.replaceAll('/.아랫첨자', '</sub>');
     answer_4 = answer_4.replaceAll('/이미지', '<img src="');
     answer_4 = answer_4.replaceAll('/.이미지', '">');
     // replace (main)
