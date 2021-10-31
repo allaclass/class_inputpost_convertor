@@ -975,6 +975,7 @@ function question_nagative_words(question_ori){
     question_ori = question_ori.replaceAll(' 잘못된 ', ' /부정잘못된/.부정 ');
     question_ori = question_ori.replaceAll(' 없는 ', ' /부정없는/.부정 ');
     question_ori = question_ori.replaceAll(' 다른 ', ' /부정다른/.부정 ');
+    question_ori = question_ori.replaceAll(' 적은 ', ' /부정적은/.부정 ');
     question_ori = question_ori.replaceAll('～', '~');
     question_ori = question_ori.replaceAll('․', 'ㆍ');
     question_ori = question_ori.replaceAll('·', 'ㆍ');
