@@ -970,6 +970,7 @@ function question_nagative_words(question_ori){
     question_ori = question_ori.replaceAll(' 어려운 ', ' /부정어려운/.부정 ');
     question_ori = question_ori.replaceAll(' 틀린 ', ' /부정틀린/.부정 ');
     question_ori = question_ori.replaceAll(' 부적절한 ', ' /부정부적절한/.부정 ');
+    question_ori = question_ori.replaceAll(' 부적합한 ', ' /부정부적합한/.부정 ');
     question_ori = question_ori.replaceAll(' 못한 ', ' /부정못한/.부정 ');
     question_ori = question_ori.replaceAll(' 잘못 ', ' /부정잘못/.부정 ');
     question_ori = question_ori.replaceAll(' 잘못된 ', ' /부정잘못된/.부정 ');
