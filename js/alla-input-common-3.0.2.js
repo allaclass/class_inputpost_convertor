@@ -1,8 +1,11 @@
-// 제  목 : alla-input-common-3.0.1.js
-// 작성일 : 2021.04.20 - table-renewal
-// 업데이트 1 : 2021.10.30 - 문제영역 부정문 자동추출 및 명령어 입력, 특수문자 올에이 스타일로 자동변환
-// 업데이트 2 : 2021.10.30 - 보기문, 객관식영역 특수문자 올에이 스타일로 자동변환
-// 작성자 : 김현수
+// 제    목 : alla-input-common-3.0.1.js
+// 작 성 자 : 김현수
+// 작 성 일 : 2021.04.20 - table-renewal
+// 
+// 업데이트 : 파일명 변경 (alla-input-common-3.0.2.js)
+// 업데이트 : 2021.10.30 - 문제영역 부정문 자동추출 및 명령어 입력, 특수문자 올에이 스타일로 자동변환
+// 업데이트 : 2021.10.30 - 보기문, 객관식영역 특수문자 올에이 스타일로 자동변환
+// 업데이트 : 2021.12.01 - 모바일 URL 접근차단 추가
 
 
 // around variable
@@ -32,6 +35,7 @@ var txt_answer = document.getElementById('txt_answer');
 
 var div_postView = document.getElementById('postView');
 
+var src_mobile_url_no = "";
 var src_thumb = "";
 var src_notice_header = "";
 var src_guide = "";
@@ -103,7 +107,8 @@ function array_lv1_input(){
     var gNum = 0;
     
     // html source
-    final_reset(); // 테스트 필요함
+    final_reset();
+    html_mobile_url_no();
     html_thumb();
     html_notice_header();
     html_guide();
@@ -1045,6 +1050,21 @@ function nagative_words_to_html(nagawords){
     nagawords = nagawords.replaceAll('/이미지', '<img src="');
     nagawords = nagawords.replaceAll('/.이미지', '">');
     return nagawords;
+}
+
+// html_mobile_url_no
+function html_mobile_url_no(){
+    src_mobile_url_no = '';
+    src_mobile_url_no += '<!-- 수정: 모바일 방지 -->\n';
+    src_mobile_url_no += '<div>\n';
+    src_mobile_url_no += '\t<script>\n';
+    src_mobile_url_no += '\t\tif (window.location.pathname.split("/")[1] === "m" && navigator.userAgent.indexOf("Tistory") === -1 && navigator.userAgent.indexOf("Android") === -1) {\n';
+    src_mobile_url_no += '\t\twindow.location.href = window.location.origin + window.location.pathname.substr(2);\n';
+    src_mobile_url_no += '\t\t}\n';
+    src_mobile_url_no += '\t</script>\n';
+    src_mobile_url_no += '</div>\n';
+    src_mobile_url_no += '<!-- /.수정: 모바일 방지 -->\n\n';
+    fnl.value += src_mobile_url_no;
 }
 
 // html_thumb
