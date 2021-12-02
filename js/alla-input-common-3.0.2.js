@@ -994,6 +994,8 @@ function question_nagative_words(question_ori){
     question_ori = question_ori.replaceAll('｣', '」');
     question_ori = question_ori.replaceAll('‘', '\'');
     question_ori = question_ori.replaceAll('’', '\'');
+    question_ori = question_ori.replaceAll('<', '&#60;');
+    question_ori = question_ori.replaceAll('>', '&#62;');
     return question_ori;
 }
 
@@ -1012,6 +1014,8 @@ function other_giho_words(gihowords_ori){
     gihowords_ori = gihowords_ori.replaceAll('｣', '」');
     gihowords_ori = gihowords_ori.replaceAll('‘', '\'');
     gihowords_ori = gihowords_ori.replaceAll('’', '\'');
+    gihowords_ori = gihowords_ori.replaceAll('<', '&#60;');
+    gihowords_ori = gihowords_ori.replaceAll('>', '&#62;');
     return gihowords_ori;
 }
 
