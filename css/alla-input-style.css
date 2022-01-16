@@ -78,7 +78,8 @@ div#postView {
 }
 
 .menu button {
-    width: 78.8%;
+    /* width: 78.8%; */
+    width: 98.8%;
     height: 40px;
     margin: 0 0 20px 0;
     padding: 0px;
@@ -89,9 +90,9 @@ div#postView {
     font-size: 12px;
 }
 
-.menu button:last-of-type {
+/* .menu button:last-of-type {
     width: 18.8%;
-}
+} */
 .menu button:first-of-type {
     margin-right: 5px;
 }
@@ -143,7 +144,7 @@ div#postView {
 
 /* scrollbar */
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 10px;
     height: 20px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0);
